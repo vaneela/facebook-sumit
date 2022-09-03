@@ -1,0 +1,91 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+   background-color: rgba(63, 62, 62, 0.191);
+}
+
+.fb{
+font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+font-size: x-large;
+margin-left: 40px;
+}
+.email{
+width:300px;
+height: 40px;
+border-radius: 3px;
+border-color: grey;
+
+/* margin-left: 9px; */
+}
+.full{ 
+display:flex; 
+margin-left: 190px;
+margin-top: 200px;
+}
+.box{
+/* z-index: 1; */
+/* margin:auto; */
+
+margin-left: 250px;
+box-sizing: border-box;
+background-color: white;
+align-content:center;
+box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+width:450px;
+height:330px;
+}
+button{
+background-color:rgba(0, 85, 255, 0.946);
+color:white;
+border-radius: 7px;
+}
+#shift{
+margin-left: 30px;
+margin-top: 20px;
+
+}
+#forgot{
+color:rgb(7, 123, 247);
+margin-left: 39px;
+margin-top: 15px;
+
+}
+.green{
+color:white;
+background-color: rgba(59, 199, 59, 0.794);
+height:50px;
+width:200px;
+margin-left: 45px;
+margin-top:28px;
+}
+.formality{
+margin-top: 50px;
+}
+button:hover{
+background-color: red;
+}
+.email:hover{
+border-color: aqua;
+}
+
+#forgot:hover{
+text-decoration: underline;
+}
+@media ( max-width: 1400px){
+    .box {font-size: 45%;
+    margin-left: 50px;}
+    
+}
+
+@media(max-width:1000px ){
+    .full{
+        
+        margin-left:20px;
+
+    }
+    
+
+}
+    
